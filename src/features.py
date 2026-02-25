@@ -34,3 +34,11 @@ def create_features(df: pd.DataFrame) -> pd.DataFrame:
     df_encoded = df_encoded.drop(columns=[c for c in drop_cols if c in df_encoded.columns])
 
     return df_encoded
+
+def category_risk(score):
+    if score <=1:
+        return "Low risk"
+    elif score <=3:
+        return "Medium Risk"
+    else:
+        return "High Risk"
