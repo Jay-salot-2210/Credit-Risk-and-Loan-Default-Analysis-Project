@@ -73,17 +73,26 @@ Strongest negative indicators:
 ## 📂 Project Structure
 │
 ├── data/
+
 │ ├── raw/
+
 │ └── processed/
+
 │
 ├── notebooks/
+
 │ └── data_exploration.ipynb
+
 │
 ├── src/
+
 │ ├── data_utils.py
+
 │ └── features.py
+
 │
 └── dashboard/
+
 └── Tableau Dashboard (Published)
 
 
