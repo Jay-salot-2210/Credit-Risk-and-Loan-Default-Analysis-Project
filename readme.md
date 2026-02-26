@@ -71,34 +71,26 @@ Strongest negative indicators:
 ---
 
 ## 📂 Project Structure
-│
 
+```bash
+credit_risk_and_loan_default_analysis/
+│
 ├── data/
-
-│   ├── raw/
-
-│   └── processed/
-
+│   ├── raw/                      
+│   └── processed/                
 │
-
 ├── notebooks/
-
-│   └── data_exploration.ipynb
-
+│   └── data_exploration.ipynb    
 │
-
 ├── src/
-
-│   ├── data_utils.py
-
-│   └── features.py
-
+│   ├── data_utils.py             
+│   └── features.py               
 │
-
-└── dashboard/
-
-|    └── Tableau Dashboard (Published)
-
+├── dashboard/
+│   └── Tableau Dashboard         
+│
+└── README.md                     
+```
 ---
 
 ## 🎯 Business Recommendations
